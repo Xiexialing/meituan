@@ -8,6 +8,7 @@ class index extends Component {
     return (
       <Router history={this.props.history}>
         <Route path='/' component={App}>
+          <IndexRoute component={Home}/>
           <Route path="home" component={Home}/>
         </Route>
       </Router>

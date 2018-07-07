@@ -1,0 +1,102 @@
+.category {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    background-color: #FFF;
+}
+
+.carousel-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carousel-item:last-child {
+    margin-bottom: 15px;
+}
+
+.carousel-item li {
+    width: 20%;
+}
+
+.carousel-item li a {
+    display: block;
+    text-align: center;
+}
+
+.carousel-item li a .icon {
+    display: block;
+    margin: 15px auto 3px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: lightgray;
+    background-size: 45px 45px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pages {
+    font-size: 0;
+    text-align: center;
+}
+
+.pages li {
+    display: inline-block;
+    margin-right: 12px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    color: #FFF;
+    background-color: gray;
+}
+
+.pages li.active {
+    background-color: red;
+}
+
+.pages li:last-child {
+    margin: 0;
+}
+
+i.icon-jingdian {
+    background-image: url("../images/02景点icon_1.png");
+}
+
+i.icon-KTV {
+    background-image: url("../images/02KTVicon_2.png");
+}
+
+i.icon-gouwu {
+    background-image: url("../images/02购物icon_3.png");
+}
+
+i.icon-shenghuo {
+    background-image: url("../images/02生活服务icon_4.png");
+}
+
+i.icon-yundong {
+    background-image: url("../images/02运动健身icon_5.png");
+}
+
+i.icon-meifa {
+    background-image: url("../images/02美发icon_6.png");
+}
+
+i.icon-qinzi {
+    background-image: url("../images/02亲子icon_7.png");
+}
+
+i.icon-xiaochi {
+    background-image: url("../images/02小吃快餐icon_8.png");
+}
+
+i.icon-zizhu {
+    background-image: url("../images/02自助餐icon_9.png");
+}
+
+i.icon-jiuba {
+    background-image: url("../images/02酒吧icon_10.png");
+}
+
+
+
+

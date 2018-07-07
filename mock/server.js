@@ -12,9 +12,10 @@ app.use(async (ctx, next) => {
 });
 
 // add url-route:
-router.get('/hello/:name', async (ctx, next) => {
+var homeads = require('./home/ad');
+router.get('/api/homead', async (ctx, next) => {
   var name = ctx.params.name;
-  ctx.response.body = `<h1>Hello, ${name}!</h1>`;
+  ctx.response.body = homeads;
 });
 
 router.get('/api', async (ctx, next) => {

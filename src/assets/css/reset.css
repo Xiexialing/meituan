@@ -95,7 +95,7 @@ textarea {
 
 .clearfix:after {
     content: '';
-    display: block;
+    display: table;
     clear: both;
 }
 
@@ -103,55 +103,3 @@ textarea {
     color: #CC0000;
 }
 
-div.el-message {
-    top: 0;
-}
-
-.swiperright {
-    transform: translate3d(0, 0, 0);
-}
-
-.swiperleft {
-    transform: translate3d(-150px, 0, 0);
-}
-
-.swiperTop {
-    transform: translate3d(0, -100%, 0);
-}
-
-.swiperBottom {
-    transform: translate3d(0, 100%, 0);
-}
-
-.loading {
-    text-align: center;
-    font-size: 14px;
-    height: 42px;
-    line-height: 42px;
-}
-
-.loading img {
-    width: 24px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.loading-layer {
-    display: none;
-}
-
-.no-result {
-    padding-top: 170px;
-    text-align: center;
-}
-
-.no-result img {
-    width: 250px;
-    margin-bottom: 45px;
-}
-
-.no-result p {
-    font-size: 18px;
-    line-height: 18px;
-    color: #3D465B;
-}
