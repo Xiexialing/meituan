@@ -14,6 +14,7 @@ class HomeHeader extends Component {
           <input type="text" className="home-search" placeholder="请输入关键字"/>
         </div>
         <div className="user">
+          好像是
           <i className="icon-user"></i>
         </div>
       </div>
